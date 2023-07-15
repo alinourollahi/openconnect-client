@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function start() {
-  echo <<pass>> | sudo openconnect <<ip>> --user=<<user-name>>  -b --no-dtls --passwd-on-stdin --servercert <<servercert>> >> /dev/null 2>& 1
+  echo "<pass>" | sudo openconnect "<ip>" --user="<user-name>"  -b --no-dtls --passwd-on-stdin --servercert "<servercert>" >> /dev/null 2>& 1
 }
 
 
