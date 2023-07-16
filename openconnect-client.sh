@@ -18,6 +18,6 @@ then
 	stop
 else
     echo "Usage: opc start          start openconnect"
-	echo "   or: opc stop           stop openconnect"
-	exit -1
+    echo "   or: opc stop           stop openconnect"
+    exit -1
 fi
