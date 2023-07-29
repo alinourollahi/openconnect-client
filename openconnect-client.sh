@@ -37,6 +37,6 @@ then
 else
     echo "Usage: sudo opc start          start openconnect"
     echo "   or: sudo opc stop           stop openconnect"
-	echo "   or: sudo opc restart           restart openconnect"
+    echo "   or: sudo opc restart        restart openconnect"
     exit -1
 fi
